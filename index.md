@@ -20,19 +20,17 @@ My work focuses on topics such as:
 
 ## Projects
 
-### [Transfer Learning](https://github.com/Diagle/TL)
-A deep learning model for predict tumor metastatics.
-(CORAL)['./CORAL.md]
+### Transfer Learning
+
+[CORAL]('./CORAL.md)
 
 [TCA]('./TCA.md')
 ---
 
-### 🧬 [Single Cell Analysis](https://github.com/Diagle)
-
-
+### Single Cell Analysis
 ---
 
-## 📫 Contact
+## Contact
 
 - Email: 2024020616@hrbmu.edu.cn  
 - GitHub: [github.com/Diagle](https://github.com/Diagle)  
