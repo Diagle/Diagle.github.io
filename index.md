@@ -25,7 +25,6 @@ My work focuses on topics such as:
 [CORAL]('./CORAL.md)
 
 [TCA]('./TCA.md')
----
 
 ### Single Cell Analysis
 ---
