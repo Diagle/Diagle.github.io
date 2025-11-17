@@ -20,9 +20,9 @@ HMU在读研究生，工作主题集中于：
 
 ### 漫漫迁移路
 
-1. [CORAL]('./CORAL.md)
+1. [CORAL](./TransferLearning//DomainAdaption/CORAL.md)
 
-2. [TCA]('./TCA.md')
+2. [TCA](./TransferLearning//DomainAdaption/TCA.md)
 
 ### 单细胞分析
 
