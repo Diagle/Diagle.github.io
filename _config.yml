@@ -1,0 +1,8 @@
+title: "Diagle | Bioinformatics & Machine Learning"
+description: "记录生物信息学、深度学习、迁移学习与肿瘤药物反应预测的研究和实践。"
+theme: minima
+lang: zh-CN
+timezone: Asia/Shanghai
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
