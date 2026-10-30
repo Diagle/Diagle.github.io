@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="academic-home">
+
+  <div class="academic-content">
+    {{ content }}
+  </div>
+
+  <section class="latest-posts">
+    <div class="section-heading">
+      <div>
+        <span class="section-eyebrow">WRITING & NOTES</span>
+        <h2>Latest Posts</h2>
+      </div>
+      <span class="post-count">{{ site.posts | size }} ARTICLES</span>
+    </div>
+
+    {% if site.posts.size > 0 %}
+      <div class="post-list">
+        {% for post in site.posts limit:5 %}
+          <article class="post-card">
+            <div class="post-card-date">
+              <time datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%b %d, %Y" }}
+              </time>
+            </div>
+
+            <div class="post-card-content">
+              <h3>
+                <a href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+
+              {% if post.excerpt %}
+                <p>{{ post.excerpt | strip_html | normalize_whitespace | truncate: 150 }}</p>
+              {% endif %}
+
+              {% if post.categories.size > 0 %}
+                <div class="post-categories">
+                  {% for category in post.categories %}
+                    <span>{{ category }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+
+            <a class="post-arrow" href="{{ post.url | relative_url }}" aria-label="Read article">
+              →
+            </a>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="empty-posts">New research notes and technical articles will appear here.</p>
+    {% endif %}
+  </section>
+
+</div>

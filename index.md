@@ -1,42 +1,56 @@
 ---
 layout: home
 title: Home
+permalink: /
 ---
 
-# Research, Code, and Ideas
+# Bioinformatics & Machine Learning
 
-聚焦生物信息学、深度学习与迁移学习，记录科研项目、方法实践和可复现的技术笔记。
+I work at the intersection of **bioinformatics, machine learning, and medical AI**, with an interest in developing computational methods for understanding complex biological systems and improving biomedical prediction.
 
-## Featured Projects
+关注生物信息学与人工智能交叉研究，主要探索迁移学习、最优传输和单细胞组学分析在肿瘤研究中的应用。
 
-### Cell Signal Entropy
-
-细胞信号熵相关计算与 GPU 实现。具体功能以仓库 README 和代码为准。
-
-[查看 GitHub](https://github.com/Diagle/cell-signal-entropy-gpu)
-
-### Bioinformatics DL Tutorial
-
-生物信息学与深度学习学习资料及实践代码。
-
-[查看 GitHub](https://github.com/Diagle/bioinfo-dl-tutorial)
-
-### Transfer Learning & Domain Adaptation
-
-整理迁移学习、域适应及肿瘤药物反应预测相关研究。
-
-[查看项目仓库](https://github.com/Diagle/scOT)
+**Research Toolkit:** Python · PyTorch · Linux · Scanpy · Optimal Transport · Transfer Learning
 
 ## Research Interests
 
-- 多源域适应与迁移学习
-- 最优传输（Optimal Transport）
-- 单细胞转录组分析
-- 肿瘤药物反应预测
-- 可解释机器学习
+- **Transfer Learning & Domain Adaptation** — Unsupervised and multi-source domain adaptation across heterogeneous biomedical datasets.
+- **Optimal Transport** — Distribution alignment and representation learning for cross-domain prediction.
+- **Medical AI** — Deep learning methods for cancer drug-response prediction.
+- **Single-cell Omics** — Computational analysis of tumor heterogeneity, cell states and cellular ecosystems.
+- **Interpretable Machine Learning** — Model interpretation and biological discovery.
 
-## Technical Notes
+## Featured Projects
 
-这里记录深度学习、生物信息学分析、模型评估、实验复现及科研实践。
+| Project | Description |
+|:--|:--|
+| [scOT](https://github.com/Diagle/scOT) | Optimal transport-based unsupervised multi-source domain adaptation for biomedical prediction. |
+| [Cell Signal Entropy](https://github.com/Diagle/cell-signal-entropy-gpu) | GPU-oriented implementation and computational analysis of cellular signaling entropy. |
+| [Bioinformatics DL Tutorial](https://github.com/Diagle/bioinfo-dl-tutorial) | Learning resources and practical implementations for bioinformatics and deep learning. |
 
-最新文章将由博客系统自动列出。
+## Research Focus
+
+**Unsupervised Multi-source Domain Adaptation for Cancer Drug-response Prediction**
+
+My current research explores optimal transport-based domain adaptation to transfer predictive knowledge from bulk cancer cell-line expression datasets to single-cell transcriptomic data.
+
+The goal is to address distribution shifts across datasets and measurement platforms, and to investigate drug-response heterogeneity at single-cell resolution.
+
+## Technical Skills
+
+| Category | Technologies |
+|:--|:--|
+| Programming | Python, Linux, Git |
+| Deep Learning | PyTorch, Neural Networks, GNN |
+| Transfer Learning | Domain Adaptation, MMD, Optimal Transport |
+| Bioinformatics | Scanpy, Single-cell RNA-seq, RNA Velocity |
+| Data Analysis | NumPy, Pandas, Scikit-learn |
+
+## Contact & Links
+
+- **GitHub:** [github.com/Diagle](https://github.com/Diagle)
+- **Projects:** [Explore my repositories](https://github.com/Diagle?tab=repositories)
+
+---
+
+*Research, code, and reproducible ideas in bioinformatics and machine learning.*
